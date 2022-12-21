@@ -102,7 +102,7 @@ public class SimpleTests {
     @Test
     public void testthouthWeight() {
         var actualResult = getIMTResult(180f, 1000f);
-        Assert.assertEquals("указан некорректый вес", actualResult);
+        Assert.assertEquals("указан очень некорректый вес", actualResult);
     }
 
     private String getIMTResult(Float heightCm, Float weightKg)
